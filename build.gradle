@@ -3,7 +3,18 @@ plugins {
     id 'maven-publish'
 }
 
-group 'org.image4j'
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'org.image4j'
+            artifactId = 'image4j'
+            version = '0.8.0'
+
+            from components.java
+        }
+    }
+}
 
 java {
 toolchain {
