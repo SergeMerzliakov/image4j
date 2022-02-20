@@ -1,0 +1,13 @@
+plugins {
+    id 'java-library'
+}
+
+group 'org.image4j'
+
+java {
+toolchain {
+    languageVersion.set(JavaLanguageVersion.of(17))
+  }
+}
+
+version = '0.8'

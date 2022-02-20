@@ -1,5 +1,9 @@
 # image4j
 
+## Update
+* Forked repo
+* Converted build to gradle
+
 ## Overview
 
 The image4j library allows you to read and write certain image formats in 100% pure Java.
